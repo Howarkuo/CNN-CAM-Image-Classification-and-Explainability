@@ -2,27 +2,26 @@
 This repository contains the code and resources for a deep learning project focused on building a Convolutional Neural Network (CNN) for image classification, coupled with Class Activation Mapping (CAM) for model interpretability.
 
 The primary goal is to not only classify images accurately but also to visualize which parts of the image the CNN is focusing on when making a prediction.
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Prerequisites
+### Prerequisites
+
+
 
 To run the main notebook, you will need a Python environment with Jupyter support and the standard deep learning libraries installed.
 
-Python 3.x
+* **Python 3.x**
+* **TensorFlow / Keras**
+* **NumPy**
+* **Matplotlib**
+* **Pillow (PIL)**
 
-TensorFlow / Keras
-
-NumPy
-
-Matplotlib
-
-Pillow (PIL)
-
-Installation
-
+### Installation
 Clone the repository to your local machine:
 
+```bash
 git clone <your-repository-url>
 cd <your-repository-name>
 
