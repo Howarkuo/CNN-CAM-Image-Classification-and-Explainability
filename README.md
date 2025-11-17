@@ -2,7 +2,7 @@
 This repository contains the code and resources for a deep learning project focused on building a Convolutional Neural Network (CNN) for image classification, coupled with **Class Activation Mapping (CAM)** for model interpretability.
 
 The primary goal is to not only classify images accurately but also to visualize *which parts* of the image the CNN is focusing on when making a prediction.
-
+![image] (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/main/download.png)
 ---
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ To run the main notebook, you will need a Python environment with Jupyter suppor
 ### Installation
 Clone the repository to your local machine:
 
-bash
+```bash
 git clone https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability.git
 Data Structure
 
@@ -37,12 +37,13 @@ Copy code
 │   └── ICH_Data/     # Intracerebral Hemorrhage images
 ├── CNN_CAM.ipynb
 └── README.md
+```
 To create the required folders automatically:
 
 bash
 Copy code
 mkdir -p Data/AD_Data Data/ASD_Data Data/ICH_DataBefore running the notebook, ensure your training and testing image files are placed into the corresponding subdirectories within the Data/ folder.
-![image] (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/main/download.png)
+
 📂 Project Files
 
 CNN_CAM.ipynb
