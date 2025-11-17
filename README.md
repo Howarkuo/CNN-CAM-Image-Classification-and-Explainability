@@ -1,9 +1,9 @@
 # CNN-CAM-Image-Classification-and-Explainability
-This repository contains the code and resources for a deep learning project focused on building a Convolutional Neural Network (CNN) for image classification, coupled with Class Activation Mapping (CAM) for model interpretability.
----
-The primary goal is to not only classify images accurately but also to visualize which parts of the image the CNN is focusing on when making a prediction.
----
+This repository contains the code and resources for a deep learning project focused on building a Convolutional Neural Network (CNN) for image classification, coupled with **Class Activation Mapping (CAM)** for model interpretability.
 
+The primary goal is to not only classify images accurately but also to visualize *which parts* of the image the CNN is focusing on when making a prediction.
+
+---
 ## 🚀 Getting Started
 
 ### Prerequisites
