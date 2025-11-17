@@ -22,10 +22,9 @@ To run the main notebook, you will need a Python environment with Jupyter suppor
 Clone the repository to your local machine:
 
 ```bash
-git clone (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability)
+git clone [https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability.git](https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability.git)
 
----
-Data Structure
+```Data Structure
 
 The main notebook expects the image data to be organized in a specific structure, as inferred from the path variables in the code:
 
@@ -39,8 +38,8 @@ The main notebook expects the image data to be organized in a specific structure
 
 ```bash
 mkdir -p Data/AD_Data Data/ASD_Data Data/ICH_Data
----
-Before running the notebook, ensure your training and testing image files are placed into the corresponding subdirectories within the Data/ folder.
+
+```Before running the notebook, ensure your training and testing image files are placed into the corresponding subdirectories within the Data/ folder.
 ![image] (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/main/download.png)
 📂 Project Files
 
