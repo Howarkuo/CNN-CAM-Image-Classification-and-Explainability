@@ -22,25 +22,26 @@ To run the main notebook, you will need a Python environment with Jupyter suppor
 Clone the repository to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-name>```
+git clone (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability)
 
-
+---
 Data Structure
 
 The main notebook expects the image data to be organized in a specific structure, as inferred from the path variables in the code:
 
 .
 ├── Data/
-│   ├── AD_Data/   # Placeholder for dataset A (e.g., Alzheimer's Disease)
-│   ├── ASD_Data/  # Placeholder for dataset B (e.g., Autism Spectrum Disorder)
-│   └── ICH_Data/  # Placeholder for dataset C (e.g., Intracerebral Hemorrhage)
+│   ├── AD_Data/   
+│   ├── ASD_Data/ 
+│   └── ICH_Data/  
 ├── CNN_CAM.ipynb
 └── README.md
 
-
+```bash
+mkdir -p Data/AD_Data Data/ASD_Data Data/ICH_Data
+---
 Before running the notebook, ensure your training and testing image files are placed into the corresponding subdirectories within the Data/ folder.
-![image] (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/blob/main/download.png)
+![image] (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/main/download.png)
 📂 Project Files
 
 CNN_CAM.ipynb
