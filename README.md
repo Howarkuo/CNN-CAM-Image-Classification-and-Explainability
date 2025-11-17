@@ -22,9 +22,10 @@ To run the main notebook, you will need a Python environment with Jupyter suppor
 ### Installation
 Clone the repository to your local machine:
 
-```bash
+bash
 git clone https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability.git
 Data Structure
+
 The main notebook expects the dataset to follow the directory structure below:
 
 bash
