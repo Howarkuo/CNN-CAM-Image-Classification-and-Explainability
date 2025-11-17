@@ -23,7 +23,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone <your-repository-url>
-cd <your-repository-name>'''
+cd <your-repository-name>```
 
 
 Data Structure
@@ -40,7 +40,7 @@ The main notebook expects the image data to be organized in a specific structure
 
 
 Before running the notebook, ensure your training and testing image files are placed into the corresponding subdirectories within the Data/ folder.
-![image] https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/blob/main/download.png
+![image] (https://github.com/Howarkuo/CNN-CAM-Image-Classification-and-Explainability/blob/main/download.png)
 📂 Project Files
 
 CNN_CAM.ipynb
